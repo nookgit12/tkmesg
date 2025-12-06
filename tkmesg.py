@@ -6,7 +6,7 @@ import threading
 class DmesgApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("dmesg Viewer (Tkinter)")
+        self.root.title("tkmesg")
         
         # Text display
         self.text_area = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=100, height=35)
